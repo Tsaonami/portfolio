@@ -1,0 +1,222 @@
+
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***** Hard Reset End *****/
+
+/***** Global *****/
+
+div {
+  width: 1020px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Aldrich', cursive;
+  background-color: black;
+  color: white;
+}
+
+/***** Background/Header Images For All Pages *****/
+
+.background {
+  width: 1020px;
+}
+
+h1 {
+  font-size: 300px;
+  top: -175px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+#og {
+  right: 150px;
+}
+
+/***** Navigation *****/
+
+#home {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px;
+  padding: 13px 62px 13px 62px;
+  top: 305px;
+  left: 425px;
+  text-transform: uppercase;
+  position: absolute;
+  opacity: 1.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#home a {
+  color: white;
+  text-decoration: none;
+}
+
+#des037 {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px;
+  padding: 13px 62px 13px 62px;
+  top: 305px;
+  left: 630px;
+  text-transform: uppercase;
+  position: absolute;
+  opacity: 1.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#des037 a {
+  color: white;
+  text-decoration: none;
+}
+
+#bakery {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px;
+  padding: 13px 39px 13px 62px;
+  top: 360px;
+  left: 425px;
+  text-transform: uppercase;
+  position: absolute;
+  opacity: 1.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#bakery a {
+  color: white;
+  text-decoration: none;
+}
+
+#portal {
+  width: 99px;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px;
+  padding: 13px 62px 13px 62px;
+  top: 360px;
+  left: 630px;
+  text-transform: uppercase;
+  position: absolute;
+  opacity: 1.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#portal a {
+  color: white;
+  text-decoration: none;
+}
+
+#home:hover, #des037:hover, #bakery:hover, #portal:hover {
+  opacity: .5;
+}
+
+/***** Blog Body *****/
+
+article {
+  width: 570px;
+  top: 730px;
+  left: 355px;
+  position: absolute;
+}
+
+article p {
+  border: 3px solid #fff;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0px 0px 20px;
+  line-height: 20px;
+}
+
+.blog {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px;
+  margin-top: -10px;
+  width: 564px;
+  height: 730px;
+}
+
+.blog2 {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px;
+  width: 720px;
+  height: 600px;
+  top: 2200px;
+  left: 280px;
+  position: absolute;
+}
+
+.blog3 {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px;
+  width: 760px;
+  height: 630px;
+  left: 260px;
+  top: 3400px;
+  position: absolute;
+}
+
+/***** Footer *****/
+
+footer {
+	position: absolute;
+  left: 700px;
+  top: 4125px;
+}
+
+footer p a {
+	text-decoration: none;
+}
+
+/***** Fonts *****/
+
+@font-face {
+	font-family: 'Aldrich';
+	src: url('fonts/Aldrich-Regular.ttf');
+}

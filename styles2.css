@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************** End CSS RESET *****************/
+
+/***** Global *****/
+
+body {
+	background-color: black;
+	font-family: 'Italianno', cursive;
+	font-size: 32px;
+	margin: auto;
+	/*text-shadow: 1px 1px 1px;*/
+}
+
+#container {
+	width: 1020px;
+	margin: auto;
+	position: relative;
+}
+
+a {
+	font-size: 50px;
+	color: brown;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 32px;
+	color: black;
+}
+
+/***** Header *****/
+
+.parchment {
+	z-index: -1;
+}
+
+h1 {
+	/*border: 1px solid #000;*/
+	width: 550px;
+	font-size: 70px;
+	line-height: 50px;
+	margin: auto;
+	padding-top: 150px;
+	padding-left: 170px;
+
+	/*text-shadow: 1px 1px 2px;*/
+}
+
+/***** Navigation *****/
+
+nav ul {
+	/*overflow: hidden;*/
+	width: 750px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	margin-left: 170px;
+}
+
+nav ul li {
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+nav ul li a {
+	font-size: 40px;
+	color: brown;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: none;
+	display: block;
+}
+
+
+/***** Body *****/
+
+span {
+	font-size: 100px;
+	padding-left: 50px;
+	text-shadow: 1px 1px 1px;
+	font-size: 80px;
+}
+
+section {
+	/*border: 1px solid #fff;*/
+	width: 500px;
+	/*margin: auto;*/
+	/*padding-left: 150px;*/
+	margin: auto;
+	padding-top: 50px;
+}
+
+header {
+	/*border: 1px solid #fff;*/
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+#h3 {
+	padding-left: 0px;
+}
+
+time {
+	position: absolute;
+	right: -125px;
+	top: 80px;
+}
+
+article {
+	padding-top: 30px;
+	margin-bottom: 60px;
+	position: relative;
+	float: left;
+}
+
+.seal {
+	position: absolute;
+	width: 500px;
+	left: 600px;
+	top: 0px;
+}
+
+.seal2 {
+	width: 500px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+img {
+	width: 1020px;
+	position: absolute;
+}
+
+#captain {
+	padding-left: 250px;
+}
+
+#inkandpen {
+	width: 400px;
+	left: 470px;
+	top: 0px;
+}
+
+blockquote {
+	font-size: 44px;
+	font-weight: bold;
+}
+
+cite {
+	font-size: 40px;
+	float: right;
+	padding-right: 80px;
+}
+
+.template {
+	width: 500px;
+}
+
+.responsive {
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	left: 100px;
+	border: 5px solid brown;
+	position: relative;
+}
+
+/***** Footer *****/
+
+footer {
+	/*border: 1px solid #fff;*/
+	width: 200px;
+	text-align: center;
+	margin: auto;
+}
+
+footer p a {
+	font-size: 30px;
+	text-decoration: none;
+	color: brown;
+}

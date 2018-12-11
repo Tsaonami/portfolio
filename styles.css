@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************** End CSS RESET *****************/
+
+/***** Global *****/
+
+body {
+	background-color: black;
+	font-family: 'Italianno', cursive;
+	font-size: 32px;
+	margin: auto;
+	/*text-shadow: 1px 1px 1px;*/
+}
+
+#container {
+	width: 1020px;
+	margin: auto;
+	position: relative;
+}
+
+a {
+	font-size: 50px;
+	color: brown;
+}
+
+/***** Header *****/
+
+.parchment {
+	z-index: -1;
+}
+
+h1 {
+	/*border: 1px solid #000;*/
+	width: 550px;
+	font-size: 70px;
+	line-height: 50px;
+	margin: auto;
+	padding-top: 150px;
+	padding-left: 170px;
+
+	/*text-shadow: 1px 1px 2px;*/
+}
+
+/***** Navigation *****/
+
+nav ul {
+	/*border: 1px solid #fff;*/
+	width: 750px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	margin-left: 170px;
+}
+
+nav ul li {
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 0px;
+}
+
+nav ul li a {
+	font-size: 40px;
+	color: brown;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: none;
+	display: block;
+}
+
+#nav li {
+	margin-left: 15px;
+}
+
+/***** Body *****/
+
+span {
+	font-size: 80px;
+	padding-left: 50px;
+	text-shadow: 1px 1px 1px;
+}
+
+section {
+	width: 500px;
+	padding-left: 150px;
+	padding-top: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+#h3 {
+	padding-left: 0px;
+}
+
+time {
+	position: absolute;
+	right: -175px;
+	top: 80px;
+}
+
+article {
+	padding-top: 30px;
+	margin-bottom: 60px;
+	position: relative;
+	float: left;
+}
+
+.seal {
+	/*border: 1px solid #000;*/
+	width: 500px;
+	left: 425px;
+	top: 110px;
+}
+
+img {
+	width: 1020px;
+	position: absolute;
+}
+
+#captain {
+	padding-left: 250px;
+}
+
+#inkandpen {
+	width: 400px;
+	left: 470px;
+	top: 0px;
+}
+
+blockquote {
+	font-size: 44px;
+}
+
+cite {
+	font-size: 40px;
+	float: right;
+	padding-right: 80px;
+}
+
+/***** Footer *****/
+
+footer {
+	/*border: 1px solid #fff;*/
+	width: 200px;
+	text-align: center;
+	margin: auto;
+}
+
+footer p a {
+	font-size: 30px;
+	color: brown;
+	text-decoration: none;
+}
+
+/***** Other Pages *****/
